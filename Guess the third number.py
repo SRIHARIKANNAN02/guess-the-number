@@ -1,0 +1,11 @@
+import random as rn
+print("Let's play the number guessing game")
+print('Choose the secret number')
+secret_num = rn.randint(1, 50)
+print('Enter your guesses')
+print('Enter the first guess')
+guess1 = int(input())
+print('Enter the second guess')
+guess2 = int(input())
+print('Enter the third guess')
+guess3 = int(input())
